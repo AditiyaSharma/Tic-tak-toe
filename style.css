@@ -1,0 +1,77 @@
+/* * {
+    margin: 0;
+    padding: 0;
+  } */
+body{
+     background-color: #548687; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+.game{
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height:60vmin;
+    width: 60vmin;
+    gap: 2vmin;
+    display: flex;
+    flex-wrap: wrap;
+}
+.myButton{
+    width:18vmin;
+    height:18vmin;
+    border-radius: 2vmin;
+    opacity: 0.9;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    background-color: #ffffc7;
+    color:black
+}
+#rstbtn
+{
+    font-size:3vmin;
+    padding: 2vmin;
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 2vmin;
+    border: none;
+}
+#newGame{
+    font-size:3vmin;
+    padding: 2vmin;
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 2vmin;
+    border: none;
+}
+#winnerMessage{
+    font-size:7vmin;
+    color: #fbfbfa;
+}
+.tictacName{
+    font-size:6vmin;
+}
+.winner-container{
+    height:100vmin;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+.hide{
+    display: none;
+}
+.Xcolor{
+    color: yellow;
+}
+.Ocolor{
+    color: orange;
+}
